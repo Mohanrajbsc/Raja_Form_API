@@ -6,13 +6,19 @@ namespace Raja_Form_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentController : ControllerBase
+    public class StudentController : ControllerBase 
     {
         private readonly StudentDbContext ctx;
 
         public StudentController (StudentDbContext ctx)
         {
             this.ctx = ctx;
+        }
+
+
+        public StudentControllernew(StudentDbContext ctx)
+        {
+            this.ctx = ctx; 
         }
 
 
