@@ -15,11 +15,7 @@ namespace Raja_Form_API.Controllers
             this.ctx = ctx;
         }
 
-
-        public StudentControllernew(StudentDbContext ctx)
-        {
-            this.ctx = ctx; 
-        }
+        //Commands //
 
 
 
